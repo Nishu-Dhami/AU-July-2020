@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>WebPage</title>
+</head>
+
+<body>
+<style>
+  p{
+    color:blue;
+  }
+</style>
+<div>
+<h1 style="color: rgb(2,92,117); font-weight: bold;">CHECK STRING FOR REGULAR EXPRESSION</h1>
+<input type="text" id="str" value="" placeholder="Enter a string">
+<button onclick="func()">CHECK</button>
+<p id="output"></p>
+</div>
+<div>
+<h1 style="color: rgb(2,92,117); font-weight: bold;">ARRAY FILTERATION</h1>
+<h3>Enter elements seperated by commas(a1,a2,a3...): </h3>
+<input type="text" id="arr" value="" placeholder="Enter elements">
+<button onclick="filtering()">APPLY</button>
+<p id ="input"></p>
+<p id ="filter"></p>
+<p id ="sort"></p>
+<p id ="add"></p>
+<p id ="index"></p>
+<p id ="output1"></p>
+</div>
+<script>
+function func() 
+{
+  var str = document.getElementById("str").value;
+  var pat = /^(hot|dot|not).*(ho+t|do+t|no+t)$/;
+
+  if (!pat.test(str)){
+    document.getElementById("output").innerHTML = "False, String doesn't match RegEx";
+  }
+  else{
+    document.getElementById("output").innerHTML = "True, String satisfies RegEx";
+  }
+}
+function filtering() 
+{
+  var arr = document.getElementById("arr").value.split(",");
+  document.getElementById("input").innerHTML="Input Array is "+arr;
+  arr = arr.filter(function a(item){ return item>10;});
+  document.getElementById("filter").innerHTML="Array after filtering elements for value more than 10 becomes "+arr;
+  arr = arr.sort();
+  document.getElementById("sort").innerHTML="Sorted array : "+arr;
+  arr=arr.map(function b(item){return item=parseInt(item)+parseInt(1);});
+  document.getElementById("add").innerHTML="Array after adding 1 to each element : "+arr;
+  arr=arr.slice(1,4)
+  document.getElementById("index").innerHTML="Array elements from index 1 to 4 are "+arr;
+  document.getElementById("output1").innerHTML = "The filtered array is "+arr; 
+}
+</script>
+
+</body>
+</html>
