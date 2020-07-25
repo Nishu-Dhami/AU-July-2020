@@ -50,7 +50,7 @@ function mfunc(item)
 {
   return item>50;
 }
-console.log("Do array satisfies condition that some elements are >50 "+arr.some(myfunc));
+console.log("Do array satisfies condition that some elements are >50 "+arr.some(mfunc));
 //toSource()
 //console.log(arr.toSource())
 //sort()
