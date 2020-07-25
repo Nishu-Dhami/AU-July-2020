@@ -47,9 +47,7 @@ arr=arr.slice(1,6)
 console.log("New array after slicing first three elements "+arr)
 //some()
 function mfunc(item)
-{
-  return item>50;
-}
+{ return item>50; }
 console.log("Do array satisfies condition that some elements are >50 "+arr.some(mfunc));
 //toSource()
 //console.log(arr.toSource())
@@ -60,11 +58,10 @@ console.log("Elements removed from array are"+arr.splice(3,4))
 console.log("Array becomes "+arr)
 //toSource()
 console.log("Source is "+arr.toSource)
-////toString()
+//toString()
 arr[0]=toString(arr[0])
 console.log("Converting first array element to string "+arr)
 //unshift()
-//arr=arr.unshift(15)
 console.log("Length of array adding 15 at beggining "+arr.unshift(15))
 console.log("Final array : "+arr)
 window.alert("CHECK CONSOLE FOR RESULTS");
