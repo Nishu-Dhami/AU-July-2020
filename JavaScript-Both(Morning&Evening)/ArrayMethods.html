@@ -1,3 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ARRAY METHODS</title>
+</head>
+<body>
+<h1>ARRAY METHODS</h1>
+<ul>
+	<li>concat()</li>
+	<li>every()</li>
+	<li>filter()</li>
+	<li>forEach()</li>
+	<li>indexOf()</li>
+	<li>lastIndexOf()</li>
+	<li>join()</li>
+	<li>map()</li>
+	<li>pop()</li>
+	<li>push()</li>
+	<li>reduce()</li>
+	<li>reduceRight()</li>
+	<li>reverse()</li>
+	<li>shift()</li>
+	<li>slice()</li>
+	<li>some()</li>
+	<li>sort()</li>
+	<li>splice()</li>
+	<li>toSource()</li>
+	<li>toString()</li>
+	<li>unshift()</li>
+</ul>
 <script>
 var arr=[1,2,3,79,52,68,79,69,23,,,45];
 console.log("Original arr is "+arr);
@@ -47,10 +77,10 @@ arr=arr.slice(1,6)
 console.log("New array after slicing first three elements "+arr)
 //some()
 function mfunc(item)
-{ return item>50; }
-console.log("Do array satisfies condition that some elements are >50 "+arr.some(mfunc));
-//toSource()
-//console.log(arr.toSource())
+{
+  return item>50;
+}
+console.log("Do array satisfies condition that some elements are >50 "+arr.some(myfunc));
 //sort()
 console.log("Sorted Array "+arr.sort())
 //splice()
@@ -58,7 +88,7 @@ console.log("Elements removed from array are"+arr.splice(3,4))
 console.log("Array becomes "+arr)
 //toSource()
 console.log("Source is "+arr.toSource)
-//toString()
+////toString()
 arr[0]=toString(arr[0])
 console.log("Converting first array element to string "+arr)
 //unshift()
@@ -66,3 +96,5 @@ console.log("Length of array adding 15 at beggining "+arr.unshift(15))
 console.log("Final array : "+arr)
 window.alert("CHECK CONSOLE FOR RESULTS");
 </script>
+</body>
+</html>
