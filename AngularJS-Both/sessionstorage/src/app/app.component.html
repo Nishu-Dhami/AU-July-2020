@@ -1,0 +1,35 @@
+<h1>Perform operations like add/ delete/edit/sort on data!</h1>
+
+<h2>Click on record to sort the data column-wise.</h2>
+
+<table border="1" width="75%">
+    <tr *ngFor="let user of name">
+      <th (click) ="sortUser1()">{{user.first}}</th>
+      <th (click) ="sortUser2()">{{user.last}}</th>
+      <th (click) ="sortUser3()">{{user.age}}</th>
+      <th (click) ="sortUser4()">{{user.empId}}</th>
+      <th (click) ="sortUser5()">{{user.city}}</th>
+    </tr>
+    
+   
+  </table>
+
+  <h2> Add User</h2>
+  <input [(ngModel)]='newUser.first' value="Input Name" placeholder="Enter first name"/>
+  <input [(ngModel)]='newUser.last' value="Input Name" placeholder="Enter last name"/>
+  <input [(ngModel)]='newUser.age' value="Input Name" placeholder="Enter age"/>
+  <input [(ngModel)]='newUser.empId' value="Input Name" placeholder="Enter EmpID"/>
+  <input [(ngModel)]='newUser.city' value="Input Name" placeholder="Enter city"/>
+  <button (click) ="addUser()">Add User</button>
+
+<h2>Edit details</h2>
+  <input [(ngModel)]='newUser.first' value="Input Name" placeholder="Edit first name"/>
+  <input [(ngModel)]='newUser.last' value="Input Name" placeholder="Edit last name"/>
+  <input [(ngModel)]='newUser.age' value="Input Name" placeholder="Edit age"/>
+  <input [(ngModel)]='newUser.empId' value="Input Name" placeholder="Edit EmpID"/>
+  <input [(ngModel)]='newUser.city' value="Input Name" placeholder="Edit city"/>
+  <button (click) ="updateUser()">Update User</button>
+
+<h2>Enter EmpID of User ou want to delete.</h2>
+<input [(ngModel)]='delkey' value="Input Name" placeholder="Enter EmpID"/>
+<button (click) ="deleteUser()">Delete User</button>
