@@ -1,0 +1,6 @@
+RollNo: 2
+FirstName: Krishna
+MiddleName: Tarun
+LastName: Tenneti
+Gender: Male
+Marks: 90.0
