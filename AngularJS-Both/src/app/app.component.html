@@ -1,35 +1,39 @@
-<h1>Perform operations like add/ delete/edit/sort on data!</h1>
+<h1 style="color: rgb(104, 3, 3);">Perform operations like add/ delete/edit/sort on data!</h1>
 
-<h2>Click on record to sort the data column-wise.</h2>
+<h2 style="color: darkblue;">Initial Record!!!</h2>
 
-<table border="1" width="75%">
-    <tr *ngFor="let user of name">
-      <th (click) ="sortUser1()">{{user.first}}</th>
-      <th (click) ="sortUser2()">{{user.last}}</th>
-      <th (click) ="sortUser3()">{{user.age}}</th>
-      <th (click) ="sortUser4()">{{user.empId}}</th>
-      <th (click) ="sortUser5()">{{user.city}}</th>
+<table width="85%" style="border:1px solid black; border-collapse: collapse; background-color: rgb(189, 241, 241);">
+  <tr>
+    <th style="border:1px solid black; padding: 5px;">FIRSTNAME</th>
+    <th style="border:1px solid black; padding: 5px;">LASTNAME</th>
+    <th style="border:1px solid black; padding: 5px;">AGE</th>
+    <th style="border:1px solid black; padding: 5px;">EMPLOYEE_ID</th>
+    <th style="border:1px solid black; padding: 5px;">LOCATION</th>
+  </tr>
+    <tr *ngFor="let user of name" style="border:1px solid black;">
+      <td (click) ="sortbyfname()" style="border:1px solid black; padding: 5px;">{{user.firstname}}</td>
+      <td (click) ="sortbylname()" style="border:1px solid black; padding: 5px;">{{user.lastname}}</td>
+      <td (click) ="sortbyage()" style="border:1px solid black; padding: 5px;">{{user.age}}</td>
+      <td (click) ="sortbyemoid()" style="border:1px solid black; padding: 5px;">{{user.empId}}</td>
+      <td (click) ="sortbyloc()" style="border:1px solid black; padding: 5px;">{{user.loc}}</td>
     </tr>
     
    
   </table>
 
-  <h2> Add User</h2>
-  <input [(ngModel)]='newUser.first' value="Input Name" placeholder="Enter first name"/>
-  <input [(ngModel)]='newUser.last' value="Input Name" placeholder="Enter last name"/>
-  <input [(ngModel)]='newUser.age' value="Input Name" placeholder="Enter age"/>
-  <input [(ngModel)]='newUser.empId' value="Input Name" placeholder="Enter EmpID"/>
-  <input [(ngModel)]='newUser.city' value="Input Name" placeholder="Enter city"/>
-  <button (click) ="addUser()">Add User</button>
-
-<h2>Edit details</h2>
-  <input [(ngModel)]='newUser.first' value="Input Name" placeholder="Edit first name"/>
-  <input [(ngModel)]='newUser.last' value="Input Name" placeholder="Edit last name"/>
-  <input [(ngModel)]='newUser.age' value="Input Name" placeholder="Edit age"/>
-  <input [(ngModel)]='newUser.empId' value="Input Name" placeholder="Edit EmpID"/>
-  <input [(ngModel)]='newUser.city' value="Input Name" placeholder="Edit city"/>
-  <button (click) ="updateUser()">Update User</button>
-
-<h2>Enter EmpID of User ou want to delete.</h2>
-<input [(ngModel)]='delkey' value="Input Name" placeholder="Enter EmpID"/>
-<button (click) ="deleteUser()">Delete User</button>
+  <h2 style="color: darkblue ;">Enter details and click on operation you want to perform!</h2>
+  <label style="font-size: 20px; margin-right: 40px;">First Name: </label>
+  <input [(ngModel)]='newUser.firstname' value="Input Name" placeholder="Enter first name" style="height: 20px; font-size: 15px; padding: 2px;"/><br><br>
+  <label style="font-size: 20px; margin-right: 40px;">Last Name: </label> 
+  <input [(ngModel)]='newUser.lastname' value="Input Name" placeholder="Enter last name" style="height: 20px; font-size: 15px; padding: 2px;"/><br><br>
+  <label style="font-size: 20px; margin-right: 40px;">Age: </label>
+  <input [(ngModel)]='newUser.age' value="Input Name" placeholder="Enter age" style="height: 20px; font-size: 15px; padding: 2px;"/><br><br>
+  <label style="font-size: 20px; margin-right: 40px;">EmployeeID: </label> 
+  <input [(ngModel)]='newUser.empId' value="Input Name" placeholder="Enter Employee ID" style="height: 20px; font-size: 15px; padding: 2px;"/><br><br>
+  <label style="font-size: 20px; margin-right: 40px;">Location: </label>  
+  <input [(ngModel)]='newUser.loc' value="Input Name" placeholder="Enter City Name" style="height: 20px; font-size: 15px; padding: 2px;"/><br><br>
+  <button (click) ="addUser()" style="margin-Left:5px; background-color: green; color: whitesmoke; width:70px;height:30px;">ADD</button>
+  <button (click) ="updateUser()" style="margin-Left:15px; width:70px;height:30px; background-color: blue; color: whitesmoke;">EDIT</button>
+  <button (click) ="deleteUser()" style="margin-Left:15px; width:70px; height:30px; background-color: red; color:whitesmoke;">DELETE</button>
+  <button (click) ="sortUser()" style="margin-Left:15px; width:70px; height:30px; background-color: rgb(129, 5, 212); color:whitesmoke;">SORT</button>
+  <button (click) ="clear()" style="margin-Left:15px; width:70px; height:30px; background-color: rgb(247, 97, 11); color:whitesmoke;">CLEAR</button>
