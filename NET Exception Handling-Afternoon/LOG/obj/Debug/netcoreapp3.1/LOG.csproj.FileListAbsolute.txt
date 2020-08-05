@@ -1,0 +1,13 @@
+C:\Users\nishu\Desktop\LOG\bin\Debug\netcoreapp3.1\LOG.exe
+C:\Users\nishu\Desktop\LOG\bin\Debug\netcoreapp3.1\LOG.deps.json
+C:\Users\nishu\Desktop\LOG\bin\Debug\netcoreapp3.1\LOG.runtimeconfig.json
+C:\Users\nishu\Desktop\LOG\bin\Debug\netcoreapp3.1\LOG.runtimeconfig.dev.json
+C:\Users\nishu\Desktop\LOG\bin\Debug\netcoreapp3.1\LOG.dll
+C:\Users\nishu\Desktop\LOG\bin\Debug\netcoreapp3.1\LOG.pdb
+C:\Users\nishu\Desktop\LOG\obj\Debug\netcoreapp3.1\LOG.csprojAssemblyReference.cache
+C:\Users\nishu\Desktop\LOG\obj\Debug\netcoreapp3.1\LOG.AssemblyInfoInputs.cache
+C:\Users\nishu\Desktop\LOG\obj\Debug\netcoreapp3.1\LOG.AssemblyInfo.cs
+C:\Users\nishu\Desktop\LOG\obj\Debug\netcoreapp3.1\LOG.csproj.CoreCompileInputs.cache
+C:\Users\nishu\Desktop\LOG\obj\Debug\netcoreapp3.1\LOG.dll
+C:\Users\nishu\Desktop\LOG\obj\Debug\netcoreapp3.1\LOG.pdb
+C:\Users\nishu\Desktop\LOG\obj\Debug\netcoreapp3.1\LOG.genruntimeconfig.cache
