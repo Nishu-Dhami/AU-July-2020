@@ -1,0 +1,13 @@
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\bin\Debug\netcoreapp3.1\Multicast.exe
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\bin\Debug\netcoreapp3.1\Multicast.deps.json
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\bin\Debug\netcoreapp3.1\Multicast.runtimeconfig.json
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\bin\Debug\netcoreapp3.1\Multicast.runtimeconfig.dev.json
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\bin\Debug\netcoreapp3.1\Multicast.dll
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\bin\Debug\netcoreapp3.1\Multicast.pdb
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\obj\Debug\netcoreapp3.1\Multicast.csprojAssemblyReference.cache
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\obj\Debug\netcoreapp3.1\Multicast.AssemblyInfoInputs.cache
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\obj\Debug\netcoreapp3.1\Multicast.AssemblyInfo.cs
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\obj\Debug\netcoreapp3.1\Multicast.csproj.CoreCompileInputs.cache
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\obj\Debug\netcoreapp3.1\Multicast.dll
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\obj\Debug\netcoreapp3.1\Multicast.pdb
+C:\Users\nishu\Desktop\NET Delegates, Events and Callbacks\MultiCast_Delegation\Multicast\obj\Debug\netcoreapp3.1\Multicast.genruntimeconfig.cache
