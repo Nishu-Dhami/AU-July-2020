@@ -1,0 +1,13 @@
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\bin\Debug\netcoreapp3.1\Leave Application.exe
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\bin\Debug\netcoreapp3.1\Leave Application.deps.json
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\bin\Debug\netcoreapp3.1\Leave Application.runtimeconfig.json
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\bin\Debug\netcoreapp3.1\Leave Application.runtimeconfig.dev.json
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\bin\Debug\netcoreapp3.1\Leave Application.dll
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\bin\Debug\netcoreapp3.1\Leave Application.pdb
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\obj\Debug\netcoreapp3.1\Leave Application.csprojAssemblyReference.cache
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\obj\Debug\netcoreapp3.1\Leave Application.AssemblyInfoInputs.cache
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\obj\Debug\netcoreapp3.1\Leave Application.AssemblyInfo.cs
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\obj\Debug\netcoreapp3.1\Leave Application.csproj.CoreCompileInputs.cache
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\obj\Debug\netcoreapp3.1\Leave Application.dll
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\obj\Debug\netcoreapp3.1\Leave Application.pdb
+C:\Users\nishu\Desktop\NET File Handling\Leave Confirmation\Leave Application\obj\Debug\netcoreapp3.1\Leave Application.genruntimeconfig.cache

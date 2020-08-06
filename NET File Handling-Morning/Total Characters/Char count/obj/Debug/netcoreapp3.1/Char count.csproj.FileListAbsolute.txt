@@ -1,0 +1,13 @@
+C:\Users\nishu\Desktop\NET File Handling\Char count\bin\Debug\netcoreapp3.1\Char count.exe
+C:\Users\nishu\Desktop\NET File Handling\Char count\bin\Debug\netcoreapp3.1\Char count.deps.json
+C:\Users\nishu\Desktop\NET File Handling\Char count\bin\Debug\netcoreapp3.1\Char count.runtimeconfig.json
+C:\Users\nishu\Desktop\NET File Handling\Char count\bin\Debug\netcoreapp3.1\Char count.runtimeconfig.dev.json
+C:\Users\nishu\Desktop\NET File Handling\Char count\bin\Debug\netcoreapp3.1\Char count.dll
+C:\Users\nishu\Desktop\NET File Handling\Char count\bin\Debug\netcoreapp3.1\Char count.pdb
+C:\Users\nishu\Desktop\NET File Handling\Char count\obj\Debug\netcoreapp3.1\Char count.csprojAssemblyReference.cache
+C:\Users\nishu\Desktop\NET File Handling\Char count\obj\Debug\netcoreapp3.1\Char count.AssemblyInfoInputs.cache
+C:\Users\nishu\Desktop\NET File Handling\Char count\obj\Debug\netcoreapp3.1\Char count.AssemblyInfo.cs
+C:\Users\nishu\Desktop\NET File Handling\Char count\obj\Debug\netcoreapp3.1\Char count.csproj.CoreCompileInputs.cache
+C:\Users\nishu\Desktop\NET File Handling\Char count\obj\Debug\netcoreapp3.1\Char count.dll
+C:\Users\nishu\Desktop\NET File Handling\Char count\obj\Debug\netcoreapp3.1\Char count.pdb
+C:\Users\nishu\Desktop\NET File Handling\Char count\obj\Debug\netcoreapp3.1\Char count.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\bin\Debug\netcoreapp3.1\Alphabetic Chars.exe
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\bin\Debug\netcoreapp3.1\Alphabetic Chars.deps.json
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\bin\Debug\netcoreapp3.1\Alphabetic Chars.runtimeconfig.json
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\bin\Debug\netcoreapp3.1\Alphabetic Chars.runtimeconfig.dev.json
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\bin\Debug\netcoreapp3.1\Alphabetic Chars.dll
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\bin\Debug\netcoreapp3.1\Alphabetic Chars.pdb
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\obj\Debug\netcoreapp3.1\Alphabetic Chars.csprojAssemblyReference.cache
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\obj\Debug\netcoreapp3.1\Alphabetic Chars.AssemblyInfoInputs.cache
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\obj\Debug\netcoreapp3.1\Alphabetic Chars.AssemblyInfo.cs
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\obj\Debug\netcoreapp3.1\Alphabetic Chars.csproj.CoreCompileInputs.cache
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\obj\Debug\netcoreapp3.1\Alphabetic Chars.dll
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\obj\Debug\netcoreapp3.1\Alphabetic Chars.pdb
+C:\Users\nishu\Desktop\NET File Handling\Extract alpha chars\Alphabetic Chars\obj\Debug\netcoreapp3.1\Alphabetic Chars.genruntimeconfig.cache
